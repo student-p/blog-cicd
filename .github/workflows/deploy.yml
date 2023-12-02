@@ -49,5 +49,5 @@ jobs:
           application_name: blog-eb-test # 엘리스틱 빈스톡 애플리케이션 이름!
           environment_name: Blog-eb-test-env # 엘리스틱 빈스톡 환경 이름!
           version_label: blog-${{steps.current-time.outputs.formattedTime}}
-          region: ap-northeast-2
+          region: us-east-1
           deployment_package: deploy/deploy.zip
